@@ -7,7 +7,7 @@ const DiaryItem = ({
   author,
   content,
   emotion,
-  created_date,
+  created_date, 
 }) => {
   const [isEdit, setIsEdit] = useState(false)
 
